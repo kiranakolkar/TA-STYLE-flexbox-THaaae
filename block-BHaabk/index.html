@@ -1,0 +1,116 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog and Gallery flix</title>
+    <link rel="stylesheet" href="assets/index.css">
+    <script src="https://kit.fontawesome.com/7c3064fcd2.js" crossorigin="anonymous">
+
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+    <header class="header">
+        <div class="container">
+            <a class="brand" href="#">
+                <img src="assets/logo.png" alt="logoimage">
+            </a>
+        
+            <nav class="logos">
+                <a href="#"> 
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a href="#"> 
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#"> 
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#"> 
+                  <i class="fab fa-reddit-square"></i>
+                  </a>
+            </nav>
+        </div>
+
+    </header>
+ <main>
+    <section class="new">
+        <article class="container firstsection">
+            <div class="col1">
+                <h1 class="heading">
+                    This is the heading
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam, veritatis doloremque eius iste esse numquam eum eveniet quibusdam nihil,
+                     ad quaerat commecessitatibus quia praesentium molestiae?
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum  adipisicing elit. Officiis aperiam, veritatis doloremque eius iste esse numquam eum eveniet quibusdam nihil,
+                      praesentium molestiae?
+                </p>
+                <p>
+                     ad quaerat commodi nulla voluptatibus ex necessitatibus quia praesentium molestiae?
+                </p>
+                 
+               
+            </div>
+            <div class="col1">
+                <img class="firstimage" src="assets/pic01.png" alt="image">
+            </div>
+
+        </article>
+    </section>
+      
+        <h1 class="middlename"> Gallary </h1>
+        <section class="gallary">
+           
+            <div>
+                <img src="assets/pic02.png" alt="image">
+            </div>
+            <div>
+                <img src="assets/pic03.png" alt="image">
+            </div>
+            <div>
+                <img src="assets/pic01.png" alt="image">
+            </div>
+            <div>
+                <img src="assets/pic03.png" alt="image">
+            </div>
+            <div>
+                <img src="assets/pic01.png" alt="image">
+            </div>
+            <div>
+                <img src="assets/pic02.png" alt="image">
+            </div>
+        
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <h2>This is footer</h2>
+        <a class="btn" href="#top" > TOP
+            <i class="fas fa-arrow-to-top"></i>
+         </a>
+    </footer>
+    
+</body>
+</html>
